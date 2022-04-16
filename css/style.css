@@ -1,0 +1,30 @@
+
+body{
+    /*para centralizar o conteundo*/
+    text-align: center;
+}
+.quadrado{
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    /*não vai ocupar nenhum espaço da direita, só vai ocupar o espaço do conteúdo dele*/
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    /*pra fazer o cursor ser uma 'mãozinha'*/
+    cursor: pointer;
+    /*cor do texto, pra ficar igual a do fundo*/
+    color: #eee;
+}
+.jogador, .vencedor{
+    font-size: 30px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
